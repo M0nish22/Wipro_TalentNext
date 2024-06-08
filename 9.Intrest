@@ -1,0 +1,23 @@
+import java.util.*;
+class prog9{
+public static void main(String args[]){
+String a=args[0];
+int b=Integer.valueOf(args[1]);
+if(a.equalsIgnoreCase("Male")){
+if(b>=1 && b<=58){
+System.out.print("the percentage of interest is 8.4%.");
+}
+else if(b>58 && b<=100){
+System.out.print("the percentage of interest is 10.5%.");
+}
+}
+else if(a.equalsIgnoreCase("female")){
+if(b>=1 && b<=58){
+System.out.print("the percentage of interest is 8.2%.");
+}
+else if(b>58 && b<=100){
+System.out.print("the percentage of interest is 9.2%.");
+}
+}
+}
+}
