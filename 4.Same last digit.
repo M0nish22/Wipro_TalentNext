@@ -1,0 +1,14 @@
+class prog4{
+public static boolean lastdigit(int a,int b){
+if(a%10==b%10){
+return true;
+}
+else{
+return false;
+}
+}
+public static void main(String args[]){
+
+System.out.print(lastdigit(7,27));
+
+}}
