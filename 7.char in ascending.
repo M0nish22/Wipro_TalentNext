@@ -1,0 +1,13 @@
+
+class prog7{
+public static void main(String args[]){
+char a='m' , b='o';
+if(a>b){
+System.out.print(a+","+b);
+}
+else{
+System.out.print(b+","+a);
+
+}
+}
+}
