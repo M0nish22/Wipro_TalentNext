@@ -1,0 +1,16 @@
+import java.util.*;
+class prog7{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+char a=sc.next().charAt(0);
+if (a>='a' && a<='z' || a>='A' && a<='Z'){
+System.out.print("Alphabet");
+}
+else if(a>47 && a<=56){
+System.out.print("Digit");
+}
+else{
+System.out.print("Special Character");
+}
+}	
+}	
