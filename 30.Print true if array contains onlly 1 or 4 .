@@ -1,0 +1,23 @@
+import java.util.*;
+class prog30{
+public static void main(String args[]){
+Scanner sc= new Scanner(System.in);
+int a=sc.nextInt();
+int arr[]=new int[a];
+for(int i=0;i<a;i++){
+arr[i]=sc.nextInt();
+}
+boolean b=false;
+for(int i=0;i<a;i++){
+if(arr[i]==4 || arr[i]==1){
+b=true;
+}
+else{
+b=false;
+break;
+}
+}
+System.out.print(b);
+}
+}
+		
