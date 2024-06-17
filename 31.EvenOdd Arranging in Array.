@@ -1,0 +1,27 @@
+import java.util.*;
+class prog31{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int arr[]=new int[a];
+for(int i=0;i<a;i++){
+arr[i]=sc.nextInt();
+}
+List<Integer> l=new ArrayList<>();
+List<Integer> m=new ArrayList<>();
+for(int num:arr){
+if(num%2==0){
+l.add(num);
+}
+else{
+m.add(num);
+}
+}
+l.addAll(m);
+for(int num:l){
+System.out.print(num+" ");
+}
+}
+}
+
+
